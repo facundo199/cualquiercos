@@ -11,3 +11,5 @@ var array=['1','2','3','4','5','6'];
 var result2=exercise2(array);
 console.log('Ejercicio 2'+'Resultado: ');
 console.log(result2);
+
+console.log('hola facu')
