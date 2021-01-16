@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>order</title>
+  <link rel="stylesheet" href="/style produtos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.htm">inicio</a></li>
+                <li><a href="/contacto.htm">contactos</a></li>
+                <li><a href="/productos.htm">productos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>
+<img class="logo" src="/imagenes/logo2 (2).jpg" alt="" width="20%">
+</aside>
+<article>
+    <h1>order</h1>
+    <div class="air max">
+        <div class="center_i">
+    <img src="">
+    </div>           
+    <div class="columns">
+    <div class="title">
+    </div>
+    <p style="color: black; ">
+        gran durabilidad
+    </p>
+    <div class="price">
+    </div>
+</div>
+</div>
+    <form action="http://jkorpela.fi/cgi-bin/echo.cgi", method="POST">
+        <div class ='input-group'>
+            <div>
+                <label for="first-name">Nombre</label>
+            </div>
+            <div>
+                <input type="text" nome='first-name' id="first-name" 
+                type="text" placeholder="escribe tu nombre">
+            </div>
+            <div>
+                <label for="first-name">apelido</label>
+            </div>
+            <div>
+                <input type="text" nome = 'first-name' id="first-name"
+                type="text" placeholder="escribe tu apelido">
+            </div>
+            <div>
+                <div>
+                    <label for="numero">codigo postal</label>
+                </div>
+                <input type="numero">
+            </div>
+        <div>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Order">
+        </div>
+    </form>
+</article>
+<header>
+    <nav>
+        <ul>
+            <li><a href="/index.htm">inicio</a></li>
+            <li><a href="/contacto.htm">contactos</a></li>
+            <li><a href="/productos.htm">productos</a></li>
+        </ul>
+    </nav>
+</header>
+</main>
+</body>
+<script>
+    window.addEventListener('DOMContentLoaded', () =>{
+    const order = localStorage.getItem('order')
+     if (order) {
+         const airOrder = JSON.parse(order)
+         const air =document.querySelector('.productos')
+         const title = air.querySelector(".title");
+         const price = air.querySelector('.price')
+
+
+         title.innertext = produtosOrder.title
+         price.innertext = produtosOrder.price
+         const img = air.querySelector('img')
+         img.setAttribute('src', '/imagenes/${produtoOrder.id}.')
+
+     }
+    })
+</script>
+</html>

@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+}
+.air {
+  width: 260px;
+  padding: 10px;
+  margin: 5px;
+  background-color: rgb(164, 172, 172);
+}
+
+.air img{
+  width: 90%;
+  height: 80%;
+  
+}
+
+.air .title{
+  font-weight: bold;  
+
+}
+.air .price{
+  text-align: right;   
+  font-weight: bold;
+  color: #130f31;
+  text-shadow: 2px 2px 0 #bcbcbc3f, 4px 4px 0 #9c9c9c;
+ }
+ .button-personalizado{
+  text-decoration: underline;
+  font-weight: 409;
+  font-size: 10 px;
+  color: whitesmoke;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 100px;
+  padding-right: 10px;
+  background-color: rgb(86, 138, 122);
+  border: rgb(0, 0, 0);
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 16px;
+
+
+ }
+ body {
+   background-color:rgb(73, 71, 71);
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+
+ h1{
+   color: black;
+   border: solid 3px black;
+   background-color: rosybrown;
+ }
+header {
+ display: block;
+}
+nav a:visited, 
+nav a:link{
+  color: white;
+  text-decoration: node;
+}
+nav > ul > li {
+  display: inline-block;
+list-style: none;
+margin: 1em 0 1em 0;
+background-color: rosybrown;
+}
+main{
+  display: block;
+  background-image: url(/imagenes/logo2.jpg);
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+footer{
+  padding: 15px;
+}
+aside,
+article{
+  padding: 2em;
+}
+@media only screen and (min-width:768px ){
+  }
+aside{
+  margin-left: 2%;
+}
+p{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+.subtitle{
+  background-color: royalblue;
+  font-size: 1.5em;
+  padding: 10px;
+  border: solid 3px black;
+}
+
+.columns-desktop {
+  display: flex;
+}
+
+
+.air .center_i{
+  text-align: center;
+  
+}
